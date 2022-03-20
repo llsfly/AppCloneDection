@@ -1,0 +1,50 @@
+final MfRecord record = new MfRecord( RECORD_SIZE ); record.setLongParam( POS_BKMODE, getBkMode() ); return record;
+getQueryId	 return queryId;
+DeleteMeshRequestProtocolMarshaller	 this.protocolFactory = protocolFactory;
+setRequestId	 this.requestId = requestId;
+JaxRsPatientRestProvider	 super(JaxRsPatientRestProvider.class);
+unmarshall	 // Bail out if this isn't the right error code that this // marshaller understands String errorCode = parseErrorCode(node); if (errorCode == null || !errorCode.equals("OptionGroupNotFoundFault")) return null; OptionGroupNotFoundException e = (OptionGroupNotFoundException) super.unmarshall(node); return e;
+setInstanceId	 this.instanceId = instanceId; if(instanceId != null){ putQueryParameter("InstanceId", instanceId); }
+setTagsSet	 this.tagsSet = tagsSet;
+throwsAssumptionViolatedException	 throw new AssumptionViolatedException("expected");
+withLastAccessedTime	 setLastAccessedTime(lastAccessedTime); return this;
+ResourceShareInvitationAlreadyRejectedException	 super(message);
+Pointer#position(long)}.
+getExpiresAt	 return this.expiresAt;
+withLatestVersionArn	 setLatestVersionArn(latestVersionArn); return this;
+btScaledBvhTriangleMeshShape	 this(CollisionJNI.new_btScaledBvhTriangleMeshShape(btBvhTriangleMeshShape.getCPtr(childShape), childShape, localScaling), true);
+fromXContentStrict	 return STRICT_PARSER.apply(parser, null).build();
+HollowCircle	 this.radius = radius;
+setCode	 this.code = code;
+final CreateOriginEndpointRequest finalRequest = beforeClientExecution(request); return executorService.submit(new java.util.concurrent.Callable<CreateOriginEndpointResult>() { @Override public CreateOriginEndpointResult call() throws Exception { CreateOriginEndpointResult result = null; try { result = executeCreateOriginEndpoint(finalRequest); } catch (Exception ex) { if (asyncHandler != null) { asyncHandler.onError(ex); } throw ex; } if (asyncHandler != null) { asyncHandler.onSuccess(finalRequest, result); } return result; } });
+clone	 return (StopDataSourceSyncJobRequest) super.clone();
+toString	 StringBuilder sb = new StringBuilder(); sb.append("{"); if (getComputeEnvironmentName() != null) sb.append("ComputeEnvironmentName: ").append(getComputeEnvironmentName()).append(","); if (getComputeEnvironmentArn() != null) sb.append("ComputeEnvironmentArn: ").append(getComputeEnvironmentArn()); sb.append("}"); return sb.toString();
+enumToStringConversion	 assertEquals(TestEnum.TWO.toString(), testEnumConverter .convertToModel(TestEnum.TWO, String.class, null));
+setFailed	 this.failed = failed;
+hashCode	 int result = field != null ? field.hashCode() : 0; result = 31 * result + (fieldDefinition != null ? fieldDefinition.hashCode() : 0); result = 31 * result + (parentType != null ? parentType.hashCode() : 0); result = 31 * result + (parentEnvironment != null ? parentEnvironment.hashCode() : 0); result = 31 * result + (arguments != null ? arguments.hashCode() : 0); return result;
+return this.buildFromMap(values, true);
+tolerance	 return config().getDouble(BASE_PATH + "tolerance");
+setProductType	 this.productType = productType; if(productType != null){ putQueryParameter("ProductType", productType); }
+add	 long acc = Long.valueOf(accumulator); acc += value.f1; return Long.toString(acc);
+enterIdle	 delegate.enterIdle();
+UnionTypeMetaModel	 super(superBaseNodeMetaModel, UnionType.class, "UnionType", "com.github.javaparser.ast.type", false, false);
+items	 Function<PaginatedOperationWithResultKeyResponse, Iterator<SimpleStruct>> getIterator = response -> { if (response != null && response.items() != null) { return response.items().iterator(); } return Collections.emptyIterator(); }; return PaginatedItemsIterable.<PaginatedOperationWithResultKeyResponse, SimpleStruct> builder().pagesIterable(this) .itemIteratorFunction(getIterator).build();
+method_110
+List<Class<?>> classes = null; String type = url.getProtocol(); if ("file".equals(type)) { classes = getClassesByFile(new File(url.getFile()), DEMO_CHARTS_PACKAGE); } else if ("jar".equals(type)) { classes = getClassesByJar(url.getPath()); } List<Class<?>> allAssignedClasses = new ArrayList<>(); if (classes != null) { for (Class<?> c : classes) { if (ExampleChart.class.isAssignableFrom(c) && !ExampleChart.class.equals(c)) { allAssignedClasses.add(c); } } } return allAssignedClasses;
+List<CloudFunctionBuildItem> buildItems = new ArrayList<>(); for (ClassInfo classInfo : functions) { String className = classInfo.name().toString(); unremovableBeans.produce(UnremovableBeanBuildItem.beanClassNames(className)); List<AnnotationInstance> annotationInstances = classInfo.annotations().get(DOTNAME_NAMED); CloudFunctionBuildItem buildItem = new CloudFunctionBuildItem(className, functionType); if (annotationInstances != null) { buildItem.setBeanName(annotationInstances.get(0).value().asString()); } buildItems.add(buildItem); } return buildItems;
+visitMethod	 // if ((access & AsmUtil.ACC_FINAL) != 0) { // return null; // skip finals // } final MethodSignatureVisitor msign = createMethodSignature(access, name, desc, signature, exceptions, thisReference, this.generics); final String key = ProxettaAsmUtil.createMethodSignaturesKey(access, name, desc, thisReference); methodSignatures.put(key, msign); allMethodSignatures.add(msign.getCleanSignature()); return new MethodAnnotationReader(msign);
+method_574
+forceContentLength	 final Buffer buffer = new Buffer(); requestBody.writeTo(buffer); return new RequestBody() { @Override public MediaType contentType() { return requestBody.contentType(); } @Override public long contentLength() { return buffer.size(); } @Override public void writeTo(BufferedSink sink) throws IOException { sink.write(buffer.snapshot()); } };
+getStatusMessage	 return this.statusMessage;
+addConditions	 addConditions(Operator.AND, conditions);
+getPropertyWhenLongReturnsValue	 Long value = (Long) this.source.getProperty("random.long"); assertThat(value).isNotNull();
+parameterDeclaration	 Object _parameters = name; if (parameterDeclaration_String_values == null) parameterDeclaration_String_values = new java.util.HashMap(4); if (parameterDeclaration_String_values.containsKey(_parameters)) { return (SimpleSet) parameterDeclaration_String_values.get(_parameters); } ASTNode$State state = state(); int num = state.boundariesCrossed; boolean isFinal = this.is$Final(); SimpleSet parameterDeclaration_String_value = parameterDeclaration_compute(name); if (isFinal && num == state().boundariesCrossed) parameterDeclaration_String_values.put(_parameters, parameterDeclaration_String_value); return parameterDeclaration_String_value;
+onStart	 if (!leader.get() && shouldStopConsumer) { stopConsumer(route); }
+in	 return new RowInCondition(this, new QueryPartList<Row>(rows), false);
+
+setLoad	 this.load = load;
+
+private static final String[] DEFAULT_CONFIG_FILES = new String[] { "classpath:ratelimiter-env.yaml", "classpath:ratelimiter-env.yml", "classpath:ratelimiter-env.properties" }; public ClassPathPropertySourceLoader() { this(null); } public ClassPathPropertySourceLoader(ResourceLoader resourceLoader) { super(resourceLoader); } @Override public String[] getAllMatchedConfigFiles() { return DEFAULT_CONFIG_FILES; }
+#packMapHeader(int)} method with size of the map. Then, for each
+createDataFactory	 final PmdDataFactory returnDataFactory = new PmdDataFactory(); returnDataFactory.setXmiFile( filenameField.getText() ); returnDataFactory.setDomainId( domainIdTextField.getText() ); returnDataFactory.setConnectionProvider( new PmdConnectionProvider() ); returnDataFactory.setGlobalScriptLanguage( getGlobalScriptingLanguage() ); if ( StringUtils.isEmpty( globalScriptTextArea.getText() ) == false ) { returnDataFactory.setGlobalScript( globalScriptTextArea.getText() ); } for ( final DataSetQuery query : this.queries.values() ) { returnDataFactory .setQuery( query.getQueryName(), query.getQuery(), query.getScriptLanguage(), query.getScript() ); } return returnDataFactory;
+testSpringTXOnExceptionIssueRollback	 int count = jdbc.queryForObject("select count(*) from books", Integer.class); assertEquals(1, count, "Number of books"); getMockEndpoint("mock:onException").expectedMessageCount(1); // we failed so no message to result getMockEndpoint("mock:result").expectedMessageCount(0); try { template.sendBody("direct:start", "Donkey in Action"); fail("Should have thrown exception"); } catch (CamelExecutionException e) { assertIsInstanceOf(RuntimeCamelException.class, e.getCause()); assertIsInstanceOf(IllegalArgumentException.class, e.getCause().getCause()); assertEquals("We don't have Donkeys, only Camels", e.getCause().getCause().getMessage()); } assertMockEndpointsSatisfied(); // we did rollback so there should be 1 books count = jdbc.queryForObject("select count(*) from books", Integer.class); assertEquals(1, count, "Number of books");

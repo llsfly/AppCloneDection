@@ -1,0 +1,10 @@
+实验脚本运行顺序：
+1. apk2dir           输出文件夹：
+2. dir2pairs         输出文件夹：
+3. pairs_in_one      输出文件夹：
+4. extract_function  输出文件夹：
+5. compareTxt.py     输出文件：
+6. checkHash.py      输出文件：
+
+共提取出函数（count_txt）txt：
+共需做函数比较次数（count_pairs）：
